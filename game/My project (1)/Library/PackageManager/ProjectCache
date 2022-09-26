@@ -80,6 +80,8 @@ m_ResolvedPackages:
     - 1.14.13
     - 1.14.15
     - 1.14.16
+    - 1.14.17
+    - 1.14.18
     - 1.15.1
     - 1.15.4
     - 1.15.7
@@ -88,6 +90,10 @@ m_ResolvedPackages:
     - 1.15.13
     - 1.15.15
     - 1.15.16
+    - 1.15.17
+    - 1.15.18
+    - 1.17.0
+    - 1.17.1
     - 1.17.2
     - 2.0.0-preview.6
     - 2.0.0-preview.8
@@ -147,7 +153,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637937432480000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -295,6 +301,7 @@ m_ResolvedPackages:
     - 3.0.10
     - 3.0.12
     - 3.0.13
+    - 3.0.14
     - 3.0.15
     compatible:
     - 3.0.15
@@ -315,7 +322,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637914298700000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -392,7 +399,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637914298680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -517,13 +524,17 @@ m_ResolvedPackages:
     - 1.1.29
     - 1.1.30
     - 1.1.31
+    - 1.1.33
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 1.1.33
+    - 2.0.1-exp.1
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    verified: 1.1.31
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -963,7 +974,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     compatible:
     - 1.7.8
     verified: 1.7.8
@@ -991,7 +1017,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637878097330000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2770,9 +2796,11 @@ m_ResolvedPackages:
     - 1.0.5
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     compatible:
     - 1.0.6
     - 2.0.2
+    - 2.0.3
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -2968,6 +2996,8 @@ m_ResolvedPackages:
     - 1.2.0-exp.4
     - 1.2.0-exp.5
     - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
     compatible:
     - 1.0.1
     - 1.1.0
@@ -2978,6 +3008,8 @@ m_ResolvedPackages:
     - 1.2.0-exp.4
     - 1.2.0-exp.5
     - 1.2.0-exp.6
+    - 1.2.0-exp.7
+    - 1.2.0
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -3053,10 +3085,16 @@ m_ResolvedPackages:
     - 1.1.0-pre.41
     - 1.1.0-pre.69
     - 1.2.0
+    - 1.3.1
+    - 1.3.2
+    - 1.4.0
+    - 1.4.1
     - 1.4.2
+    - 1.4.3
     compatible:
     - 1.4.2
-    verified: 1.4.2
+    - 1.4.3
+    verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3081,7 +3119,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637919618520000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3113,9 +3151,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -3129,12 +3176,12 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
@@ -3197,7 +3244,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637846828220000000
   documentationUrl: 
   hasRepository: 1
   repository:
