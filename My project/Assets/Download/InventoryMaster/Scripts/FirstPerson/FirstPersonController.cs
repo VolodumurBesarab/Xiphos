@@ -50,6 +50,7 @@ public class FirstPersonController : MonoBehaviour
 
         if (!lockMovement())
         {
+            /*
             //Rotation
             float rotationLeftRight = Input.GetAxis("Mouse X") * mouseSensitivity;
             transform.Rotate(0, rotationLeftRight, 0);
@@ -57,6 +58,7 @@ public class FirstPersonController : MonoBehaviour
             verticalRotation -= Input.GetAxis("Mouse Y") * mouseSensitivity;
             verticalRotation = Mathf.Clamp(verticalRotation, -verticalAngleLimit, verticalAngleLimit);
             firstPersonCamera.transform.localRotation = Quaternion.Euler(verticalRotation, 0, 0);
+            */
 
             //Movement
             float forwardSpeed = Input.GetAxis("Vertical") * movementspeed;
@@ -69,9 +71,14 @@ public class FirstPersonController : MonoBehaviour
                 verticalVelocity = jumpSpeed;
             }
 
-            Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
+            //Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
+            Vector3 speed = new Vector3(sideSpeed, 0, forwardSpeed);
 
-            speed = transform.rotation * speed;
+            //speed = transform.rotation * speed;
+
+            //My rotation
+            if (speed.magnitude > Mathf.Abs(0.05f))
+            transform.rotation = Quaternion.Lerp(transform.rotation, Quaternion.LookRotation(speed), Time.deltaTime * 10);
 
             characterController.Move(speed * Time.deltaTime);
         }
