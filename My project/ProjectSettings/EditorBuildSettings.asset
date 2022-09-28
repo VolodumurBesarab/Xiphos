@@ -178,7 +178,7 @@ EditorBuildSettings:
       Menu Example.unity
     guid: ff01193eff44e7c4c8c7020a015ac0d9
   - enabled: 1
-    path: Assets/Download/InventoryMaster/Examples/Example.unity
+    path: Assets/InventoryMaster/Examples/Example.unity
     guid: a2f811dfcbbd60744a806d639f42f04e
   - enabled: 1
     path: Assets/Download/VIDE/Demos/MultiInstances/example4.unity
