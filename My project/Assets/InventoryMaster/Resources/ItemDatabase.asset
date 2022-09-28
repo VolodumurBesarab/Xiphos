@@ -573,3 +573,17 @@ MonoBehaviour:
     indexItemInList: 999
     rarity: 0
     itemAttributes: []
+  - itemName: Dildo
+    itemID: 36
+    itemDesc: "10000 \u0443\u0440\u043E\u043D\u0430"
+    itemIcon: {fileID: 21300000, guid: 8793c94c3950abb47836287c1d2f42c6, type: 3}
+    itemModel: {fileID: 7879502656706214819, guid: c181b69d7cfbbf343bc4f14e9b6a9806, type: 3}
+    itemValue: 1
+    itemType: 1
+    itemWeight: 0
+    maxStack: 1
+    indexItemInList: 999
+    rarity: 100
+    itemAttributes:
+    - attributeName: "\u0421\u0438\u043B\u0430"
+      attributeValue: 9999
