@@ -4,7 +4,10 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class FirstPersonController : MonoBehaviour
 {
-
+    private Animator animator;      //....Animator
+    private Rigidbody rigidbody;
+   // public Transform groundCheckerTransform;
+  //  public LayerMask groundLayer;
     public float movementspeed = 5.0f;
     public float mouseSensitivity = 2.0f;
     public float verticalAngleLimit = 60.0f;
@@ -29,6 +32,9 @@ public class FirstPersonController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        animator = GetComponent<Animator>();  //....get animator
+        rigidbody = GetComponent<Rigidbody>();
+       
         firstPersonCamera = Camera.main.GetComponent<Camera>();
         characterController = GetComponent<CharacterController>();
 
@@ -68,11 +74,13 @@ public class FirstPersonController : MonoBehaviour
 
             if (Input.GetButtonDown("Jump") && characterController.isGrounded)
             {
-                verticalVelocity = jumpSpeed;
+                 verticalVelocity = jumpSpeed;
+                //Jump();
             }
 
             //Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
             Vector3 speed = new Vector3(sideSpeed, 0, forwardSpeed);
+            animator.SetFloat("speed", Vector3.ClampMagnitude(speed, 1).magnitude); //....animazia na big i idle
 
             //speed = transform.rotation * speed;
 
@@ -82,6 +90,20 @@ public class FirstPersonController : MonoBehaviour
 
             characterController.Move(speed * Time.deltaTime);
         }
+        /*
+        void Jump()
+        {
+            RaycastHit hit;
+            if(Physics.Raycast(groundCheckerTransform.position, Vector3.down, 10f, groundLayer))
+            {
+                rigidbody.AddForce(Vector3.up * jumpSpeed, ForceMode.Impulse);
+            }
+            else 
+            {
+                Debug.Log("Did not find ground layer");
+            }
+        }
+        */
 
     }
 
