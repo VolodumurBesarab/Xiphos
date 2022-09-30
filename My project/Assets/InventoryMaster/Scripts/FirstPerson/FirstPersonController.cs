@@ -70,16 +70,17 @@ public class FirstPersonController : MonoBehaviour
             verticalVelocity += Physics.gravity.y * Time.deltaTime;
 
             if (Input.GetButtonDown("Jump") && characterController.isGrounded)
-            if (Input.GetButtonDown("Jump") && characterController.isGrounded)
+            
             {
+                animator.SetTrigger("Jump");
                 verticalVelocity = jumpSpeed;
                 
             }
-
-            Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
+            
+            
             Vector3 rotationspeed = new Vector3(sideSpeed, 0, forwardSpeed);
             animator.SetFloat("speed", Vector3.ClampMagnitude(rotationspeed, 1).magnitude); //....animazia na big i idle
-
+            Vector3 speed = new Vector3(sideSpeed, verticalVelocity, forwardSpeed);
             //speed = transform.rotation * speed;
 
             //My rotation
