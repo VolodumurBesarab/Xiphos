@@ -37,6 +37,8 @@ public class InventoryDesign : MonoBehaviour
     public int panelSizeX;
     [SerializeField]
     public int panelSizeY;
+    public bool shliah;  //.....
+    /// </summary>
 
     public void setVariables()
     {
@@ -86,7 +88,8 @@ public class InventoryDesign : MonoBehaviour
     {
         Image slot = null;
 #if UNITY_EDITOR
-        Object prefab = PrefabUtility.CreateEmptyPrefab("Assets/InventoryMaster/Resources/Prefabs/Slot - Inventory.prefab");
+        //.......Object prefab = PrefabUtility.CreateEmptyPrefab("Assets/InventoryMaster/Resources/Prefabs/Slot - Inventory.prefab");
+        string prefab = "Assets/InventoryMaster/Resources/Prefabs";   ////...........
 #endif
 
         for (int i = 0; i < transform.GetChild(1).childCount; i++)
@@ -98,8 +101,13 @@ public class InventoryDesign : MonoBehaviour
             slot.type = slotDesignTemp.type;
             slot.fillCenter = slotDesignTemp.fillCenter;
         }
+        if (shliah == true)                             ////.......
+            Debug.Log("prefab was save");               ////........
+        else                                            ////........
+            Debug.Log("prefab wasn't save" + shliah);   ////........
 #if UNITY_EDITOR
-        PrefabUtility.ReplacePrefab(slot.gameObject, prefab, ReplacePrefabOptions.ConnectToPrefab);
+        //PrefabUtility.ReplacePrefab(slot.gameObject, prefab, ReplacePrefabOptions.ConnectToPrefab);
+        PrefabUtility.SaveAsPrefabAsset(slot.gameObject, prefab, out shliah ); //........
 #endif
 
     }

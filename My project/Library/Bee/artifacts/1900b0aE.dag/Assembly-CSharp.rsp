@@ -425,6 +425,7 @@
 "Assets/InventoryMaster/Scripts/Item/SplitItem.cs"
 "Assets/InventoryMaster/Scripts/Tooltip/Tooltip.cs"
 "Assets/Scripts/CameraScript.cs"
+"Assets/Scripts/Dialog.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
