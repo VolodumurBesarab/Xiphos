@@ -56,6 +56,7 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Dialog.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateItemDatabase.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemAttribute.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\CreateInputManager.cs" />
@@ -169,7 +170,6 @@
     <Compile Include="Assets\Download\VIDE\Demos\Localization\VIDEUIManager2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
-    <Compile Include="Assets\Scripts\Dialog.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

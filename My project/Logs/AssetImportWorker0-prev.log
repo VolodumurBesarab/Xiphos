@@ -15,7 +15,7 @@ D:/unity/Xiphos/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57419
+61060
 Successfully changed project path to: D:/unity/Xiphos/My project
 D:/unity/Xiphos/My project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ D:/unity/Xiphos/My project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 213.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 215.31 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
 [Subsystems] Discovering subsystems at path D:/Unit/Editor/Data/Resources/UnitySubsystems
@@ -65,89 +65,89 @@ Initialize mono
 Mono path[0] = 'D:/Unit/Editor/Data/Managed'
 Mono path[1] = 'D:/Unit/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unit/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56360
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56600
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unit/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002408 seconds.
+Registered in 0.002061 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 211.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 207.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.664 seconds
+- Completed reload, in  1.497 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1664ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1500ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1282ms)
-			LoadAssemblies (141ms)
+		EndReloadAssembly (1110ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
+			SetupTypeCache (234ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (873ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (700ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (211ms)
+				RefreshPlugins (207ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (490ms)
-				ProcessInitializeOnLoadMethodAttributes (153ms)
+				ProcessInitializeOnLoadAttributes (330ms)
+				ProcessInitializeOnLoadMethodAttributes (145ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006113 seconds.
+Registered in 0.004999 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\unity\Xiphos\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\unity\Xiphos\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.022 seconds
+- Completed reload, in  2.199 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3024ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (2201ms)
+		BeginReloadAssembly (214ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (16ms)
+			DisableScriptedObjects (14ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (2334ms)
-			LoadAssemblies (468ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1745ms)
+			LoadAssemblies (146ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (565ms)
+			SetupTypeCache (478ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (248ms)
-			SetupLoadedEditorAssemblies (949ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (903ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (227ms)
-				ProcessInitializeOnLoadAttributes (625ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				BeforeProcessingInitializeOnLoad (192ms)
+				ProcessInitializeOnLoadAttributes (631ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
 				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3398 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (88.3 KB). Loaded Objects now: 3875.
-Memory consumption went from 127.1 MB to 127.1 MB.
-Total: 62.169284 ms (FindLiveObjects: 0.618776 ms CreateObjectMapping: 0.388713 ms MarkObjects: 58.497678 ms  DeleteObjects: 2.660268 ms)
+Memory consumption went from 127.2 MB to 127.1 MB.
+Total: 12.766807 ms (FindLiveObjects: 0.441739 ms CreateObjectMapping: 0.289931 ms MarkObjects: 11.862804 ms  DeleteObjects: 0.169340 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -161,181 +161,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 567.218654 seconds.
-  path: Assets/Download/Medieval_house_lite/Fire/Textures/FireSheet.png
-  artifactKey: Guid(be2e01358368b7d43adfe520c84b2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/Medieval_house_lite/Fire/Textures/FireSheet.png using Guid(be2e01358368b7d43adfe520c84b2415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916f1f17a9cf87b614221bf6ccf4de5e') in 0.615356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Download/Medieval_house_lite/Fire/Textures
-  artifactKey: Guid(93ecece0c1ce8b944a7a1c260c94d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/Medieval_house_lite/Fire/Textures using Guid(93ecece0c1ce8b944a7a1c260c94d7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2ea5fbfb29b138def7a27fc2abf4f1') in 0.006939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000617 seconds.
-  path: Assets/Download/Medieval_house_lite/Fire/Textures/Smoke.png
-  artifactKey: Guid(60e577645fd5da542a5bec4dd8b093f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/Medieval_house_lite/Fire/Textures/Smoke.png using Guid(60e577645fd5da542a5bec4dd8b093f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce3d577f146b4205decc20acf9d53e') in 0.093932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.397807 seconds.
-  path: Assets/Download/Medieval_house_lite/Prefab/Medieval_house_lite.prefab
-  artifactKey: Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/Medieval_house_lite/Prefab/Medieval_house_lite.prefab using Guid(d78188a04ae94fb418ca4acc157a8c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e838148654a722e276eb91a37e54e57e') in 2.355070 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.511190 seconds.
-  path: Assets/Download/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials
-  artifactKey: Guid(edc46053bd7598440b7450399f4d52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/Standard Assets/Environment/TerrainAssets/SurfaceTextures/Materials using Guid(edc46053bd7598440b7450399f4d52f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409f8073313cb13bc14e1ab4e52d688b') in 0.003184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.132455 seconds.
-  path: Assets/Download/VillagePack/Well/Well.prefab
-  artifactKey: Guid(22780bb3d42e70349b5857c462d56bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/VillagePack/Well/Well.prefab using Guid(22780bb3d42e70349b5857c462d56bcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a33634917f4ef270bbadf719366d5838') in 0.236189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.062539 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Materials
-  artifactKey: Guid(f461cd84e9073b34992d23957c0fb9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Materials using Guid(f461cd84e9073b34992d23957c0fb9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431ceaca5c9f2868bac53dab68575fac') in 0.001693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063991 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters 1.mat
-  artifactKey: Guid(37f6354679f3e1748b76a9221f51f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters 1.mat using Guid(37f6354679f3e1748b76a9221f51f4ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07195169c4d88280695ded7593fc59f') in 0.085764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters 2.mat
-  artifactKey: Guid(7811a2a6bf503e5409756a8b1c632000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters 2.mat using Guid(7811a2a6bf503e5409756a8b1c632000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faeecc3fa150b08e830414d0c10a7486') in 0.027838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000415 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters.mat
-  artifactKey: Guid(adc8a892651df934a900ef57d5838c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Materials/Characters.mat using Guid(adc8a892651df934a900ef57d5838c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae49f0abc283e7c7bf60ae38bc420ad') in 0.027785 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.676400 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map 1.png
-  artifactKey: Guid(650198e412a690c49b965b7e7817f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map 1.png using Guid(650198e412a690c49b965b7e7817f3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eede66f16b5a0922256f63f2f2b7a2f5') in 0.025379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map.png
-  artifactKey: Guid(4bd33e1e21997ce40943100eae6b272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map.png using Guid(4bd33e1e21997ce40943100eae6b272c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733f04b99047d58959a83aac66e966c9') in 0.028740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map 2.png
-  artifactKey: Guid(79a76738c9277534092f8c0914d298b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/CharacterPack Lowpoly (FREE)/Textures/characters_map 2.png using Guid(79a76738c9277534092f8c0914d298b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1f599b39be0e20ee0e2fbc7df96f86') in 0.032059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.229497 seconds.
-  path: Assets/Download/ExplosiveLLC/SuperCharacterController
-  artifactKey: Guid(b54ddee2406397c4dbbce7aebc21d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/SuperCharacterController using Guid(b54ddee2406397c4dbbce7aebc21d21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a6a6ccf1badcf5354c8c4c47c6498a') in 0.002626 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.259736 seconds.
-  path: Assets/Download/ExplosiveLLC/SuperCharacterController/Player.prefab
-  artifactKey: Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/SuperCharacterController/Player.prefab using Guid(0241e293f88c9ba4683c927a85520fed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90393279d26fb3948817f29a0ef041aa') in 0.036411 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.894378 seconds.
-  path: Assets/Download/ExplosiveLLC/SuperCharacterController/Materials
-  artifactKey: Guid(381b99401889e974cab473bfc09ad876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/SuperCharacterController/Materials using Guid(381b99401889e974cab473bfc09ad876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06077331e587e14c079f79e93deff350') in 0.005258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.794580 seconds.
-  path: Assets/Download/ExplosiveLLC/SuperCharacterController/Materials/BluePlastic.mat
-  artifactKey: Guid(09238216794b460489da82f8f4464580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/SuperCharacterController/Materials/BluePlastic.mat using Guid(09238216794b460489da82f8f4464580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77596f913ea0a4ba502a9e89fdcc5668') in 0.026384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.007599 seconds.
-  path: Assets/Download/ExplosiveLLC/SuperCharacterController/Materials/Default.mat
-  artifactKey: Guid(0f51dfe6dab5b554dbb0b955e184c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/SuperCharacterController/Materials/Default.mat using Guid(0f51dfe6dab5b554dbb0b955e184c31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01189410855fc2aebe6a5e78b22e3250') in 0.024337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.422635 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller
-  artifactKey: Guid(1269020b07081b64fb014528f6e3e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animation Controller using Guid(1269020b07081b64fb014528f6e3e4d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da536545c57c21fa3e14b1ab3411cf23') in 0.009586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.278689 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Fall.FBX
-  artifactKey: Guid(5a3da40707712d84c9c79fd9056679a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Fall.FBX using Guid(5a3da40707712d84c9c79fd9056679a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15a33203b62694ab143400270a94b5b4') in 0.042777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Run.FBX
-  artifactKey: Guid(f8a7c8447d8c15740964c9bfcb761d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Run.FBX using Guid(f8a7c8447d8c15740964c9bfcb761d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6223a066958c76cf8462f7b10ab672fb') in 0.029234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@WalkSlow.FBX
-  artifactKey: Guid(7c64bd10551274d4aa48072bca44bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@WalkSlow.FBX using Guid(7c64bd10551274d4aa48072bca44bfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cff881747c4508fe74683c8576dc04') in 0.032608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000743 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Walk.FBX
-  artifactKey: Guid(6aa2008e4fe28b443b5c93d5b9f768d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Walk.FBX using Guid(6aa2008e4fe28b443b5c93d5b9f768d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faaa246454db7d0a40569fcbea704915') in 0.023295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000743 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Jump.FBX
-  artifactKey: Guid(82108c6a220ef70448d2f035af5ee478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Animations/2Handed@Jump.FBX using Guid(82108c6a220ef70448d2f035af5ee478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee389b60fe44b03d86f8ccf64a400bcf') in 0.025767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.331432 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Avatar Mask/2Handed UpperBody AvatarMask.mask
-  artifactKey: Guid(4aac5ee89187dd04aa11964581909423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Avatar Mask/2Handed UpperBody AvatarMask.mask using Guid(4aac5ee89187dd04aa11964581909423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295ffbf24cff1de0b0c5c7a7600d83f') in 0.017389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.484268 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Characters/2Handed.FBX
-  artifactKey: Guid(781a15e490c144941adf6440cf6b6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Characters/2Handed.FBX using Guid(781a15e490c144941adf6440cf6b6cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20998e9897b24764207ba23273ab210a') in 0.126943 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.407958 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab
-  artifactKey: Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Prefabs/2Handed Warrior.prefab using Guid(338097dc3c0187f42a8a49e673ed32d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b7a3135807513973c58510b72153584') in 0.065072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.654995 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Materials/2Handed.mat
-  artifactKey: Guid(67c6985106584cb489a175f22e14c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Materials/2Handed.mat using Guid(67c6985106584cb489a175f22e14c7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3085a04cd153ec61f68bb5cfaba6691b') in 0.035619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.961571 seconds.
-  path: Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures/2Handed.psd
-  artifactKey: Guid(53e71cc60705d4a49ad71768851612fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Download/ExplosiveLLC/Warrior Pack Bundle 2 FREE/2 Handed Warrior Mecanim Animation Pack/Textures/2Handed.psd using Guid(53e71cc60705d4a49ad71768851612fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9331ec10a29c1a40dff49b550859c01b') in 0.041613 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.566259 seconds.
+  Time since last request: 3060.852833 seconds.
   path: Assets/Download/FreeVegetation-LowPolyNature/Demo/Terrain.asset
   artifactKey: Guid(b7b0c130a920d7545911531cd6112294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Download/FreeVegetation-LowPolyNature/Demo/Terrain.asset using Guid(b7b0c130a920d7545911531cd6112294) Importer(815301076,1909f56bfc062723c751e8b465ee728b) 
@@ -353,62 +179,62 @@ used by your application.
 =================================================================
 Received signal SIGSEGV
 Obtained 30 stack frames
-0x0000000141d5c549 (Unity) CreateAssetToGUIDMappingV2
-0x0000000141cede9a (Unity) AssetDatabase::CreateAssetToGUIDMapping
-0x00000001411f4ddf (Unity) SplatDatabase::CreateTerrainLayerAsset
-0x00000001411f30a0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
-0x00000001411ef97c (Unity) SplatDatabase::AwakeFromLoad
-0x0000000141221716 (Unity) TerrainData::AwakeFromLoad
-0x0000000140a5cdaf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x0000000140a5d81c (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x0000000140a5d983 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x0000000140a30352 (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x0000000140a30de0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x0000000140a34d32 (Unity) PersistentManager::ReadObject
-0x0000000141cde9e1 (Unity) WritePreviews
-0x0000000141cd6e15 (Unity) PreviewImporter::GenerateAssetData
-0x0000000141d1d40e (Unity) ImportToObjects
-0x0000000141d1c373 (Unity) ImportAsset
-0x0000000141d3edb2 (Unity) AssetImportWorker::Import
-0x0000000141da57b4 (Unity) <lambda_9d91f4223b4733a7f58dbd02f611399e>::operator()
-0x0000000141de69c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x0000000141dd28ae (Unity) asio::detail::win_iocp_io_context::do_one
-0x0000000141dd4514 (Unity) asio::detail::win_iocp_io_context::run
-0x0000000141de4dae (Unity) IOService::Run
-0x0000000141db79bf (Unity) AssetImportWorkerClient::Run
-0x0000000141d818e3 (Unity) RunAssetImportWorkerClientV2
-0x0000000141d8196b (Unity) RunAssetImporterV2
-0x00000001415a5188 (Unity) Application::InitializeProject
-0x0000000141a04508 (Unity) WinMain
-0x0000000142d920ce (Unity) __scrt_common_main_seh
+0x000000014226c549 (Unity) CreateAssetToGUIDMappingV2
+0x00000001421fde9a (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x0000000141704ddf (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00000001417030a0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00000001416ff97c (Unity) SplatDatabase::AwakeFromLoad
+0x0000000141731716 (Unity) TerrainData::AwakeFromLoad
+0x0000000140f6cdaf (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x0000000140f6d81c (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x0000000140f6d983 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x0000000140f40352 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x0000000140f40de0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x0000000140f44d32 (Unity) PersistentManager::ReadObject
+0x00000001421ee9e1 (Unity) WritePreviews
+0x00000001421e6e15 (Unity) PreviewImporter::GenerateAssetData
+0x000000014222d40e (Unity) ImportToObjects
+0x000000014222c373 (Unity) ImportAsset
+0x000000014224edb2 (Unity) AssetImportWorker::Import
+0x00000001422b57b4 (Unity) <lambda_9d91f4223b4733a7f58dbd02f611399e>::operator()
+0x00000001422f69c2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00000001422e28ae (Unity) asio::detail::win_iocp_io_context::do_one
+0x00000001422e4514 (Unity) asio::detail::win_iocp_io_context::run
+0x00000001422f4dae (Unity) IOService::Run
+0x00000001422c79bf (Unity) AssetImportWorkerClient::Run
+0x00000001422918e3 (Unity) RunAssetImportWorkerClientV2
+0x000000014229196b (Unity) RunAssetImporterV2
+0x0000000141ab5188 (Unity) Application::InitializeProject
+0x0000000141f14508 (Unity) WinMain
+0x00000001432a20ce (Unity) __scrt_common_main_seh
 0x00000000777a556d (kernel32) BaseThreadInitThunk
 0x0000000077a0372d (ntdll) RtlUserThreadStart
 
 Crash!!!
 SymInit: Symbol-SearchPath: '.;D:\unity\Xiphos\My project;D:\unity\Xiphos\My project\Library\BurstCache\JIT;D:\Unit\Editor;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'Діма'
 OS-Version: 6.1.0
-D:\Unit\Editor\Unity.exe:Unity.exe (000000013FA80000), size: 73551872 (result: 0), SymType: 'PDB', PDB: 'D:\Unit\Editor\Unity_x64.pdb', fileVersion: 2021.3.10.32013
+D:\Unit\Editor\Unity.exe:Unity.exe (000000013FF90000), size: 73551872 (result: 0), SymType: 'PDB', PDB: 'D:\Unit\Editor\Unity_x64.pdb', fileVersion: 2021.3.10.32013
 C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00000000779B0000), size: 1699840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\kernel32.dll:kernel32.dll (0000000077790000), size: 1175552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\kernel32.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\KERNELBASE.dll:KERNELBASE.dll (000007FEFD800000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\KERNELBASE.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\CRYPT32.dll:CRYPT32.dll (000007FEFD690000), size: 1495040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CRYPT32.dll', fileVersion: 6.1.7601.24542
 C:\Windows\system32\msvcrt.dll:msvcrt.dll (000007FEFF7B0000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msvcrt.dll', fileVersion: 7.0.7601.23403
 C:\Windows\system32\MSASN1.dll:MSASN1.dll (000007FEFD500000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSASN1.dll', fileVersion: 6.1.7601.23403
-D:\Unit\Editor\libfbxsdk.dll:libfbxsdk.dll (000007FECFBF0000), size: 10215424 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\libfbxsdk.dll', fileVersion: 2020.2.0.0
+D:\Unit\Editor\libfbxsdk.dll:libfbxsdk.dll (000007FEDE1D0000), size: 10215424 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\libfbxsdk.dll', fileVersion: 2020.2.0.0
 C:\Windows\system32\ADVAPI32.dll:ADVAPI32.dll (000007FEFF330000), size: 897024 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ADVAPI32.dll', fileVersion: 6.1.7601.24545
 C:\Windows\SYSTEM32\sechost.dll:sechost.dll (000007FEFF440000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\sechost.dll', fileVersion: 6.1.7601.23403
 C:\Windows\system32\RPCRT4.dll:RPCRT4.dll (000007FEFF990000), size: 1228800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\RPCRT4.dll', fileVersion: 6.1.7601.24545
-D:\Unit\Editor\optix.6.0.0.dll:optix.6.0.0.dll (000007FECFBB0000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\optix.6.0.0.dll', fileVersion: 6.0.0.0
-D:\Unit\Editor\s3tcompress.dll:s3tcompress.dll (000007FECFB80000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\s3tcompress.dll'
-D:\Unit\Editor\etccompress.dll:etccompress.dll (000007FECF6A0000), size: 5066752 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\etccompress.dll'
-D:\Unit\Editor\ispc_texcomp.dll:ispc_texcomp.dll (000007FECF4F0000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\ispc_texcomp.dll'
-D:\Unit\Editor\compress_bc7e.dll:compress_bc7e.dll (000007FECF390000), size: 1441792 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\compress_bc7e.dll'
+D:\Unit\Editor\optix.6.0.0.dll:optix.6.0.0.dll (000007FEE1D70000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\optix.6.0.0.dll', fileVersion: 6.0.0.0
+D:\Unit\Editor\s3tcompress.dll:s3tcompress.dll (000007FEE0900000), size: 180224 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\s3tcompress.dll'
+D:\Unit\Editor\etccompress.dll:etccompress.dll (000007FEE0420000), size: 5066752 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\etccompress.dll'
+D:\Unit\Editor\ispc_texcomp.dll:ispc_texcomp.dll (000007FEE00E0000), size: 1740800 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\ispc_texcomp.dll'
+D:\Unit\Editor\compress_bc7e.dll:compress_bc7e.dll (000007FEDFF80000), size: 1441792 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\compress_bc7e.dll'
 D:\Unit\Editor\FreeImage.dll:FreeImage.dll (0000000180000000), size: 6582272 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\FreeImage.dll', fileVersion: 3.18.0.0
 C:\Windows\system32\WS2_32.dll:WS2_32.dll (000007FEFF700000), size: 315392 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WS2_32.dll', fileVersion: 6.1.7601.23451
 C:\Windows\system32\NSI.dll:NSI.dll (000007FEFF240000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NSI.dll', fileVersion: 6.1.7601.23889
-D:\Unit\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (000007FECC4F0000), size: 48848896 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\OpenImageDenoise.dll', fileVersion: 1.4.2.0
-D:\Unit\Editor\tbb12.dll:tbb12.dll (000007FECC480000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbb12.dll'
-D:\Unit\Editor\tbbmalloc.dll:tbbmalloc.dll (000007FECC430000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbbmalloc.dll'
+D:\Unit\Editor\OpenImageDenoise.dll:OpenImageDenoise.dll (000007FED2D90000), size: 48848896 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\OpenImageDenoise.dll', fileVersion: 1.4.2.0
+D:\Unit\Editor\tbb12.dll:tbb12.dll (000007FEE03B0000), size: 434176 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbb12.dll'
+D:\Unit\Editor\tbbmalloc.dll:tbbmalloc.dll (000007FEE0360000), size: 282624 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbbmalloc.dll'
 C:\Windows\system32\VCRUNTIME140.dll:VCRUNTIME140.dll (000007FEF8FA0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VCRUNTIME140.dll', fileVersion: 14.32.31332.0
 C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll:api-ms-win-crt-runtime-l1-1-0.dll (000007FEF8F90000), size: 16384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-runtime-l1-1-0.dll', fileVersion: 10.0.14393.2990
 C:\Windows\system32\ucrtbase.DLL:ucrtbase.DLL (000007FEF8E90000), size: 999424 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ucrtbase.DLL', fileVersion: 10.0.14393.2990
@@ -430,8 +256,8 @@ C:\Windows\system32\api-ms-win-crt-filesystem-l1-1-0.dll:api-ms-win-crt-filesyst
 C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll:api-ms-win-crt-time-l1-1-0.dll (000007FEF8820000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-time-l1-1-0.dll', fileVersion: 10.0.14393.2990
 C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll:api-ms-win-crt-math-l1-1-0.dll (000007FEF8800000), size: 20480 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-math-l1-1-0.dll', fileVersion: 10.0.14393.2990
 C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll:api-ms-win-crt-utility-l1-1-0.dll (000007FEF87F0000), size: 12288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\api-ms-win-crt-utility-l1-1-0.dll', fileVersion: 10.0.14393.2990
-D:\Unit\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (000007FECC420000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\WinPixEventRuntime.dll', fileVersion: 1.0.1812.6001
-D:\Unit\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (000007FECC2F0000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\umbraoptimizer64.dll'
+D:\Unit\Editor\WinPixEventRuntime.dll:WinPixEventRuntime.dll (000007FEE1D60000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\WinPixEventRuntime.dll', fileVersion: 1.0.1812.6001
+D:\Unit\Editor\umbraoptimizer64.dll:umbraoptimizer64.dll (000007FEDFE50000), size: 1187840 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\umbraoptimizer64.dll'
 C:\Windows\system32\USER32.dll:USER32.dll (00000000778B0000), size: 1028096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\USER32.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\GDI32.dll:GDI32.dll (000007FEFF900000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\GDI32.dll', fileVersion: 6.1.7601.24540
 C:\Windows\system32\LPK.dll:LPK.dll (000007FEFF8F0000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\LPK.dll', fileVersion: 6.1.7601.24537
@@ -457,19 +283,19 @@ C:\Windows\system32\webio.dll:webio.dll (000007FEF5650000), size: 413696 (result
 C:\Windows\system32\WINMM.dll:WINMM.dll (000007FEF9700000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WINMM.dll', fileVersion: 6.1.7601.23403
 C:\Windows\system32\bcrypt.dll:bcrypt.dll (000007FEFCE50000), size: 139264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\bcrypt.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\HID.DLL:HID.DLL (000007FEFAFA0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\HID.DLL', fileVersion: 6.1.7600.16385
-D:\Unit\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (000007FECC010000), size: 2961408 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\RadeonImageFilters.dll', fileVersion: 1.7.0.0
-D:\Unit\Editor\RadeonML.dll:RadeonML.dll (000007FECBFF0000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\RadeonML.dll', fileVersion: 0.9.11.0
+D:\Unit\Editor\RadeonImageFilters.dll:RadeonImageFilters.dll (000007FEDDEF0000), size: 2961408 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\RadeonImageFilters.dll', fileVersion: 1.7.0.0
+D:\Unit\Editor\RadeonML.dll:RadeonML.dll (000007FEE0340000), size: 94208 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\RadeonML.dll', fileVersion: 0.9.11.0
 D:\Unit\Editor\OpenRL.dll:OpenRL.dll (0000000000350000), size: 12779520 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\OpenRL.dll', fileVersion: 1.5.0.2907
 C:\Windows\system32\VERSION.dll:VERSION.dll (000007FEFC860000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\VERSION.dll', fileVersion: 6.1.7601.23403
 D:\Unit\Editor\OpenRL_pthread.dll:OpenRL_pthread.dll (0000000000F90000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\OpenRL_pthread.dll', fileVersion: 2.9.0.0
 C:\Windows\system32\MSVCR100.dll:MSVCR100.dll (0000000075190000), size: 860160 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSVCR100.dll', fileVersion: 10.0.40219.325
 C:\Windows\system32\MSVCP100.dll:MSVCP100.dll (0000000073CC0000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSVCP100.dll', fileVersion: 10.0.40219.325
-D:\Unit\Editor\embree.dll:embree.dll (000007FECB000000), size: 16711680 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\embree.dll', fileVersion: 2.14.0.0
-D:\Unit\Editor\tbb.dll:tbb.dll (000007FECAF90000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbb.dll', fileVersion: 2017.0.2016.1004
+D:\Unit\Editor\embree.dll:embree.dll (000007FED1DA0000), size: 16711680 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\embree.dll', fileVersion: 2.14.0.0
+D:\Unit\Editor\tbb.dll:tbb.dll (000007FEE02D0000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\tbb.dll', fileVersion: 2017.0.2016.1004
 C:\Windows\system32\MSVCP120.dll:MSVCP120.dll (000007FEF45E0000), size: 679936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSVCP120.dll', fileVersion: 12.0.40649.5
 C:\Windows\system32\MSVCR120.dll:MSVCR120.dll (000007FEF4A80000), size: 978944 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\MSVCR120.dll', fileVersion: 12.0.40649.5
-D:\Unit\Editor\SketchUpAPI.dll:SketchUpAPI.dll (000007FECA6B0000), size: 9306112 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\SketchUpAPI.dll', fileVersion: 20.2.172.0
-D:\Unit\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (000007FECA630000), size: 479232 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\SketchUpCommonPreferences.dll', fileVersion: 20.2.172.37
+D:\Unit\Editor\SketchUpAPI.dll:SketchUpAPI.dll (000007FEDD090000), size: 9306112 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\SketchUpAPI.dll', fileVersion: 20.2.172.0
+D:\Unit\Editor\SketchUpCommonPreferences.dll:SketchUpCommonPreferences.dll (000007FEDFDD0000), size: 479232 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\SketchUpCommonPreferences.dll', fileVersion: 20.2.172.37
 C:\Windows\system32\Secur32.dll:Secur32.dll (000007FEFD140000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\Secur32.dll', fileVersion: 6.1.7601.24545
 C:\Windows\system32\SSPICLI.DLL:SSPICLI.DLL (000007FEFD310000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\SSPICLI.DLL', fileVersion: 6.1.7601.24545
 C:\Windows\system32\WSOCK32.dll:WSOCK32.dll (000007FEF45D0000), size: 36864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\WSOCK32.dll', fileVersion: 6.1.7600.16385
@@ -496,8 +322,8 @@ C:\Windows\system32\DNSAPI.dll:DNSAPI.dll (000007FEFCAA0000), size: 372736 (resu
 C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (000007FEFB190000), size: 339968 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 6.1.7601.24000
 C:\Windows\system32\rasadhlp.dll:rasadhlp.dll (000007FEF9DB0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rasadhlp.dll', fileVersion: 6.1.7600.16385
 C:\Windows\System32\wship6.dll:wship6.dll (000007FEFCF30000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wship6.dll', fileVersion: 6.1.7600.16385
-D:\Unit\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (000007FECA490000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\NVUnityPlugin.DLL'
-D:\Unit\Editor\Data\Tools\astcenc-sse42.dll:astcenc-sse42.dll (000007FECA400000), size: 565248 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\Data\Tools\astcenc-sse42.dll'
+D:\Unit\Editor\NVUnityPlugin.DLL:NVUnityPlugin.DLL (000007FEDFA70000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\NVUnityPlugin.DLL'
+D:\Unit\Editor\Data\Tools\astcenc-sse42.dll:astcenc-sse42.dll (000007FEDDD80000), size: 565248 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\Data\Tools\astcenc-sse42.dll'
 C:\Windows\system32\d3d11.dll:d3d11.dll (000007FEF9900000), size: 1921024 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\d3d11.dll', fileVersion: 6.2.9200.20807
 C:\Windows\system32\dxgi.dll:dxgi.dll (000007FEF9AE0000), size: 380928 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dxgi.dll', fileVersion: 6.2.9200.16492
 C:\Windows\system32\igd10iumd64.dll:igd10iumd64.dll (000007FEF76F0000), size: 12197888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\igd10iumd64.dll', fileVersion: 10.18.10.5161
@@ -508,65 +334,53 @@ C:\Windows\system32\wbemcomn.dll:wbemcomn.dll (000007FEF4320000), size: 548864 (
 C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (000007FEF3B50000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 6.1.7600.16385
 C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (000007FEF3FF0000), size: 925696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 6.1.7600.16385
 C:\Windows\system32\NTDSAPI.dll:NTDSAPI.dll (000007FEF3FC0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\NTDSAPI.dll', fileVersion: 6.1.7600.16385
-C:\Windows\system32\opencl.dll:opencl.dll (000007FECA3E0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\opencl.dll', fileVersion: 1.2.11.0
-D:\Unit\Editor\radeonrays.dll:radeonrays.dll (000007FECA350000), size: 557056 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\radeonrays.dll'
-D:\Unit\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (000007FEC9910000), size: 10686464 (result: 0), SymType: 'PDB', PDB: 'D:\Unit\Editor\mono-2.0-bdwgc.pdb'
-C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24483_none_e372d88f30fbb845\comctl32.dll:comctl32.dll (000007FEFB9C0000), size: 2052096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.24483_none_e372d88f30fbb845\comctl32.dll', fileVersion: 6.10.7601.24483
-C:\PROGRA~1\MICROS~2\Office16\GROOVEEX.DLL:GROOVEEX.DLL (000007FEF8FC0000), size: 2179072 (result: 0), SymType: '-exported-', PDB: 'C:\PROGRA~1\MICROS~2\Office16\GROOVEEX.DLL', fileVersion: 16.0.4266.1001
-C:\Windows\system32\msi.dll:msi.dll (000007FEF73D0000), size: 3268608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\msi.dll', fileVersion: 5.0.7601.24535
-C:\PROGRA~1\MICROS~2\Office16\1049\GrooveIntlResource.dll:GrooveIntlResource.dll (000007FEF67D0000), size: 8937472 (result: 0), SymType: '-nosymbols-', PDB: 'C:\PROGRA~1\MICROS~2\Office16\1049\GrooveIntlResource.dll', fileVersion: 16.0.4266.1001
-C:\Windows\system32\EhStorShell.dll:EhStorShell.dll (000007FEF8690000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\EhStorShell.dll', fileVersion: 6.1.7600.16385
-C:\Windows\system32\PROPSYS.dll:PROPSYS.dll (000007FEFC1B0000), size: 1228800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\PROPSYS.dll', fileVersion: 7.0.7601.23403
-C:\Windows\System32\cscui.dll:cscui.dll (000007FEF6750000), size: 516096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\cscui.dll', fileVersion: 6.1.7601.23403
-C:\Windows\System32\CSCDLL.dll:CSCDLL.dll (000007FEF8680000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CSCDLL.dll', fileVersion: 6.1.7601.24197
-C:\Windows\system32\CSCAPI.dll:CSCAPI.dll (000007FEF8930000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\CSCAPI.dll', fileVersion: 6.1.7601.24197
-C:\Windows\system32\ntshrui.dll:ntshrui.dll (000007FEF66D0000), size: 524288 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\ntshrui.dll', fileVersion: 6.1.7601.23403
-C:\Windows\system32\srvcli.dll:srvcli.dll (000007FEFCFD0000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\srvcli.dll', fileVersion: 6.1.7601.17514
-C:\Windows\system32\slc.dll:slc.dll (000007FEFBBC0000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\slc.dll', fileVersion: 6.1.7600.16385
+C:\Windows\system32\opencl.dll:opencl.dll (000007FEDFA50000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\opencl.dll', fileVersion: 1.2.11.0
+D:\Unit\Editor\radeonrays.dll:radeonrays.dll (000007FED7240000), size: 557056 (result: 0), SymType: '-exported-', PDB: 'D:\Unit\Editor\radeonrays.dll'
+D:\Unit\Editor\Data\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (000007FECBA00000), size: 10686464 (result: 0), SymType: 'PDB', PDB: 'D:\Unit\Editor\mono-2.0-bdwgc.pdb'
 C:\Windows\system32\dbghelp.dll:dbghelp.dll (000007FEEEC00000), size: 1200128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\dbghelp.dll', fileVersion: 6.1.7601.17514
 
 ========== OUTPUTTING STACK TRACE ==================
 
 0x000007FEFD801B44 (KERNELBASE) WriteFile
 0x00000000777B1B06 (kernel32) WriteFile
-0x0000000141F01456 (Unity) UnityEditor::CoreBusinessMetrics::OnEditorCrash
-0x0000000140A81F8F (Unity) winutils::CrashHandler::DefaultSignalHandler
-0x0000000140974CAF (Unity) HandleSignal
-0x0000000142DE7E2E (Unity) seh_filter_exe
-0x0000000142EA7D5C (Unity) `__scrt_common_main_seh'::`1'::filt$0
-0x0000000142DB4760 (Unity) _C_specific_handler
+0x0000000142411456 (Unity) UnityEditor::CoreBusinessMetrics::OnEditorCrash
+0x0000000140F91F8F (Unity) winutils::CrashHandler::DefaultSignalHandler
+0x0000000140E84CAF (Unity) HandleSignal
+0x00000001432F7E2E (Unity) seh_filter_exe
+0x00000001433B7D5C (Unity) `__scrt_common_main_seh'::`1'::filt$0
+0x00000001432C4760 (Unity) _C_specific_handler
 0x0000000077A1BE9D (ntdll) _chkstk
 0x00000000779F040A (ntdll) RtlInitializeResource
 0x0000000077A1B53E (ntdll) KiUserExceptionDispatcher
-0x00000001415C02C3 (Unity) core::hash_set<core::pair<core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID,1>,core::hash_pair<core::hash<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID>,core::equal_pair<std::equal_to<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID> >::lookup<core::basic_string<char,core::StringStorageDefault<char> >,core::equal_pair<std::equal_to<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID> >
-0x0000000141D5C549 (Unity) CreateAssetToGUIDMappingV2
-0x0000000141CEDE9A (Unity) AssetDatabase::CreateAssetToGUIDMapping
-0x00000001411F4DDF (Unity) SplatDatabase::CreateTerrainLayerAsset
-0x00000001411F30A0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
-0x00000001411EF97C (Unity) SplatDatabase::AwakeFromLoad
-0x0000000141221716 (Unity) TerrainData::AwakeFromLoad
-0x0000000140A5CDAF (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
-0x0000000140A5D81C (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x0000000140A5D983 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
-0x0000000140A30352 (Unity) PersistentManager::IntegrateAllThreadedObjects
-0x0000000140A30DE0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
-0x0000000140A34D32 (Unity) PersistentManager::ReadObject
-0x0000000141CDE9E1 (Unity) WritePreviews
-0x0000000141CD6E15 (Unity) PreviewImporter::GenerateAssetData
-0x0000000141D1D40E (Unity) ImportToObjects
-0x0000000141D1C373 (Unity) ImportAsset
-0x0000000141D3EDB2 (Unity) AssetImportWorker::Import
-0x0000000141DA57B4 (Unity) <lambda_9d91f4223b4733a7f58dbd02f611399e>::operator()
-0x0000000141DE69C2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
-0x0000000141DD28AE (Unity) asio::detail::win_iocp_io_context::do_one
-0x0000000141DD4514 (Unity) asio::detail::win_iocp_io_context::run
-0x0000000141DE4DAE (Unity) IOService::Run
-0x0000000141DB79BF (Unity) AssetImportWorkerClient::Run
-0x0000000141D818E3 (Unity) RunAssetImportWorkerClientV2
-0x0000000141D8196B (Unity) RunAssetImporterV2
-0x00000001415A5188 (Unity) Application::InitializeProject
-0x0000000141A04508 (Unity) WinMain
-0x0000000142D920CE (Unity) __scrt_common_main_seh
+0x0000000141AD02C3 (Unity) core::hash_set<core::pair<core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID,1>,core::hash_pair<core::hash<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID>,core::equal_pair<std::equal_to<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID> >::lookup<core::basic_string<char,core::StringStorageDefault<char> >,core::equal_pair<std::equal_to<core::basic_string<char,core::StringStorageDefault<char> > >,core::basic_string<char,core::StringStorageDefault<char> > const ,UnityGUID> >
+0x000000014226C549 (Unity) CreateAssetToGUIDMappingV2
+0x00000001421FDE9A (Unity) AssetDatabase::CreateAssetToGUIDMapping
+0x0000000141704DDF (Unity) SplatDatabase::CreateTerrainLayerAsset
+0x00000001417030A0 (Unity) SplatDatabase::ConvertSplatsToTerrainLayers
+0x00000001416FF97C (Unity) SplatDatabase::AwakeFromLoad
+0x0000000141731716 (Unity) TerrainData::AwakeFromLoad
+0x0000000140F6CDAF (Unity) AwakeFromLoadQueue::InvokePersistentManagerAwake
+0x0000000140F6D81C (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x0000000140F6D983 (Unity) AwakeFromLoadQueue::PersistentManagerAwakeFromLoad
+0x0000000140F40352 (Unity) PersistentManager::IntegrateAllThreadedObjects
+0x0000000140F40DE0 (Unity) PersistentManager::LoadAndIntegrateAllPreallocatedObjects
+0x0000000140F44D32 (Unity) PersistentManager::ReadObject
+0x00000001421EE9E1 (Unity) WritePreviews
+0x00000001421E6E15 (Unity) PreviewImporter::GenerateAssetData
+0x000000014222D40E (Unity) ImportToObjects
+0x000000014222C373 (Unity) ImportAsset
+0x000000014224EDB2 (Unity) AssetImportWorker::Import
+0x00000001422B57B4 (Unity) <lambda_9d91f4223b4733a7f58dbd02f611399e>::operator()
+0x00000001422F69C2 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)>,asio::io_context::basic_executor_type<std::allocator<void>,0> >::do_complete
+0x00000001422E28AE (Unity) asio::detail::win_iocp_io_context::do_one
+0x00000001422E4514 (Unity) asio::detail::win_iocp_io_context::run
+0x00000001422F4DAE (Unity) IOService::Run
+0x00000001422C79BF (Unity) AssetImportWorkerClient::Run
+0x00000001422918E3 (Unity) RunAssetImportWorkerClientV2
+0x000000014229196B (Unity) RunAssetImporterV2
+0x0000000141AB5188 (Unity) Application::InitializeProject
+0x0000000141F14508 (Unity) WinMain
+0x00000001432A20CE (Unity) __scrt_common_main_seh
 0x00000000777A556D (kernel32) BaseThreadInitThunk
 0x0000000077A0372D (ntdll) RtlUserThreadStart
 
