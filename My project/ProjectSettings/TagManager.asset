@@ -20,6 +20,7 @@ TagManager:
   - EventSystem
   - ground
   - MainInventory
+  - Timer
   layers:
   - Default
   - TransparentFX

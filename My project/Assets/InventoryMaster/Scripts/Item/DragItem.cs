@@ -75,6 +75,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
         {
             canvasGroup.blocksRaycasts = true;
             Transform newSlot = null;
+            newSlot = null;//VovaDebug
             if (data.pointerEnter != null)
                 newSlot = data.pointerEnter.transform;
 

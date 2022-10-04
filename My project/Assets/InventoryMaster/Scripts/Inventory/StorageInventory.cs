@@ -37,8 +37,8 @@ public class StorageInventory : MonoBehaviour
 
     GameObject player;
 
-    static Image timerImage;
-    static GameObject timer;
+    static Image timerImage = null;//Заналив бо пышли баги 
+    static GameObject timer = null;//Заналив бо пышли баги
 
     bool closeInv;
 
@@ -128,8 +128,9 @@ public class StorageInventory : MonoBehaviour
                 inv.deleteAllItems();
             }
             tooltip.deactivateTooltip();
-            timerImage.fillAmount = 0;
-            timer.SetActive(false);
+            //Таймер багає без таймера
+            //timerImage.fillAmount = 0;
+            //timer.SetActive(false);
             showTimer = false;
         }
     }
