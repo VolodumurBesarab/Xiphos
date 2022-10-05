@@ -427,6 +427,7 @@
 "Assets/L_FG_Assets_Pack_Lite/Demo/cameraMove.cs"
 "Assets/Scripts/CameraScript.cs"
 "Assets/Scripts/Dialog.cs"
+"Assets/Scripts/Ui/Inventory and Stats/Stats.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"

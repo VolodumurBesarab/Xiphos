@@ -288,15 +288,18 @@ public class PlayerInventory : MonoBehaviour
     {
         if (Input.GetKeyDown(inputManagerDatabase.CharacterSystemKeyCode))
         {
+
             if (!characterSystem.activeSelf)
             {
                 characterSystemInventory.openInventory();
+                OpenPlayerInventory();
             }
             else
             {
                 if (toolTip != null)
                     toolTip.deactivateTooltip();
                 characterSystemInventory.closeInventory();
+                ClosePlayerInventory();
             }
         }
 
@@ -304,30 +307,42 @@ public class PlayerInventory : MonoBehaviour
         {
             if (!inventory.activeSelf)
             {
-                mainInventory.openInventory();
+                OpenPlayerInventory();
             }
             else
             {
-                if (toolTip != null)
-                    toolTip.deactivateTooltip();
-                mainInventory.closeInventory();
+                ClosePlayerInventory();
             }
-        }
 
-        if (Input.GetKeyDown(inputManagerDatabase.CraftSystemKeyCode))
-        {
-            if (!craftSystem.activeSelf)
-                craftSystemInventory.openInventory();
-            else
+            if (Input.GetKeyDown(inputManagerDatabase.CraftSystemKeyCode))
             {
-                if (cS != null)
-                    cS.backToInventory();
-                if (toolTip != null)
-                    toolTip.deactivateTooltip();
-                craftSystemInventory.closeInventory();
+                if (!craftSystem.activeSelf)
+                    craftSystemInventory.openInventory();
+                else
+                {
+                    if (cS != null)
+                        cS.backToInventory();
+                    if (toolTip != null)
+                        toolTip.deactivateTooltip();
+                    craftSystemInventory.closeInventory();
+                }
             }
-        }
 
+        }
     }
 
-}
+    public void OpenPlayerInventory()
+        {
+            mainInventory.openInventory();
+        }
+
+        public void ClosePlayerInventory()
+        {
+            if (toolTip != null)
+                toolTip.deactivateTooltip();
+            mainInventory.closeInventory();
+        }
+        
+
+        
+    }

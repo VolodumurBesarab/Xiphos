@@ -114,6 +114,12 @@ public class StorageInventory : MonoBehaviour
         if (distance <= distanceToOpenStorage && Input.GetKeyDown(inputManagerDatabase.StorageKeyCode))
         {
             showStorage = !showStorage;
+
+            if (showStorage)
+                player.GetComponent<PlayerInventory>().OpenPlayerInventory();
+            else
+                player.GetComponent<PlayerInventory>().ClosePlayerInventory();
+
             StartCoroutine(OpenInventoryWithTimer());
         }
 
