@@ -463,8 +463,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                             }
                         }
                     }
-
-                }
+                }//Кінець розбору
 
                 if (Inventory.GetComponent<CraftSystem>() != null)
                 {

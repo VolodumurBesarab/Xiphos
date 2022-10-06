@@ -20,3 +20,4 @@ MonoBehaviour:
   StorageKeyCode: 101
   CharacterSystemKeyCode: 99
   CraftSystemKeyCode: 107
+  StatsInfo: 0

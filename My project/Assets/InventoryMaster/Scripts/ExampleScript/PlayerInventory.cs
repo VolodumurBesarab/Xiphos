@@ -8,6 +8,7 @@ public class PlayerInventory : MonoBehaviour
     public GameObject inventory;
     public GameObject characterSystem;
     public GameObject craftSystem;
+    public GameObject statsInfo;
     private Inventory craftSystemInventory;
     private CraftSystem cS;
     private Inventory mainInventory;
@@ -326,6 +327,22 @@ public class PlayerInventory : MonoBehaviour
                         toolTip.deactivateTooltip();
                     craftSystemInventory.closeInventory();
                 }
+            }
+
+        }
+
+        //if (Input.GetKeyDown(inputManagerDatabase.InventoryKeyCode))
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            if (!statsInfo.activeSelf)
+            {
+                statsInfo.SetActive(true);
+                statsInfo.GetComponentInChildren<CreateStatsInfo>().SetStatsInfo();
+            }
+            else
+            {
+                //statsInfo.GetComponentInChildren<CreateStatsInfo>().ClearAllText();
+                statsInfo.SetActive(false);
             }
 
         }
