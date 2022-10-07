@@ -79,11 +79,13 @@
     <Compile Include="Assets\Download\VIDE\Demos\Narration\DEMO_UIManager.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DesignForInventory.cs" />
     <Compile Include="Assets\Download\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Math3d.cs" />
+    <Compile Include="Assets\InventoryMaster\Scripts\Item\CheckIfEnoughStats.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\ExampleScript\RandomChestLootSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\Download\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\SuperMath.cs" />
     <Compile Include="Assets\Scripts\Ui\Inventory and Stats\CreateStatsInfo.cs" />
+    <Compile Include="Assets\Scripts\World\Player\CharacterStatsController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\Download\VIDE\Data\VIDE_Editor_Skin.cs" />
@@ -138,6 +140,7 @@
     <Compile Include="Assets\Download\ExplosiveLLC\SuperCharacterController\SuperCharacterController\Core\BSPTree.cs" />
     <Compile Include="Assets\Download\VIDE\Demos\PlayerInteraction\demoScripts\QuestChartDemo.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\DragInventory.cs" />
+    <Compile Include="Assets\Scripts\World\Player\CharacterStats.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\Download\VIDE\Data\VIDE_EditorDB.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Item\ItemDataBaseList.cs" />
@@ -172,9 +175,6 @@
     <Compile Include="Assets\Download\VIDE\Demos\Localization\VIDEUIManager2.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\InventoryMaster\Scripts\Inventory\InputManager.cs" />
-    <Compile Include="Assets\Scripts\World\Player\CharacterStats.cs" />
-    <Compile Include="Assets\Scripts\World\Player\CharacterStatsController.cs" />
-    <Compile Include="Assets\InventoryMaster\Scripts\Item\CheckIfEnoughStats.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

@@ -30,7 +30,7 @@ public class CreateStatsInfo : MonoBehaviour
     {
         for (int i = 0; i < playerCharacterStats.GiveCharacteristicsLeanth(); i++)
         {
-            this.GetComponentsInChildren<Text>()[i].text = playerCharacterStats.GiveCharacteristicsNaneInfo(i) + " " + playerCharacterStats.GiveCharacteristicsNumberInfo(i);
+            this.GetComponentsInChildren<Text>()[i].text = playerCharacterStats.GiveCharacteristicsName(i) + " " + playerCharacterStats.GiveCharacteristicsValue(i);
             this.GetComponentsInChildren<Text>()[i].fontSize = textSize;
             this.GetComponentsInChildren<Text>()[i].color = color;
         }

@@ -12,6 +12,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
     private GameObject oldSlot;
     private Inventory inventory;
     private Transform draggedItemBox;
+    private CheckIfEnoughStats checkIfEnoughStats;
 
     public delegate void ItemDelegate();
     public static event ItemDelegate updateInventoryList;
@@ -22,6 +23,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
         rectTransformSlot = GameObject.FindGameObjectWithTag("DraggingItem").GetComponent<RectTransform>();
         inventory = transform.parent.parent.parent.GetComponent<Inventory>();
         draggedItemBox = GameObject.FindGameObjectWithTag("DraggingItem").transform;
+        checkIfEnoughStats = GameObject.FindGameObjectWithTag("MainInventory").GetComponent<CheckIfEnoughStats>();
     }
 
 
@@ -193,32 +195,38 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                                 else if (!fitsIntoStack && rest == 0)
                                 {
                                     //if you are dragging an item from equipmentsystem to the inventory and try to swap it with the same itemtype
-                                    if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null && firstItem.itemType == secondItem.itemType)
-                                    {
-                                        newSlot.transform.parent.parent.parent.parent.GetComponent<Inventory>().UnEquipItem1(firstItem);
-                                        oldSlot.transform.parent.parent.GetComponent<Inventory>().EquiptItem(secondItem);
+                                    if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null && firstItem.itemType == secondItem.itemType && checkIfEnoughStats.IsEnoughStrange(secondItem))
+                                        { 
+                                            Debug.Log("same type");
+                                            Debug.Log("First item" + firstItem.itemName);
+                                            Debug.Log("Second item" + secondItem.itemName);
+                                            newSlot.transform.parent.parent.parent.parent.GetComponent<Inventory>().UnEquipItem1(firstItem);
+                                            oldSlot.transform.parent.parent.GetComponent<Inventory>().EquiptItem(secondItem);
 
-                                        firstItemGameObject.transform.SetParent(secondItemGameObject.transform.parent);
-                                        secondItemGameObject.transform.SetParent(oldSlot.transform);
-                                        secondItemRectTransform.localPosition = Vector3.zero;
-                                        firstItemRectTransform.localPosition = Vector3.zero;
+                                            firstItemGameObject.transform.SetParent(secondItemGameObject.transform.parent);
+                                            secondItemGameObject.transform.SetParent(oldSlot.transform);
+                                            secondItemRectTransform.localPosition = Vector3.zero;
+                                            firstItemRectTransform.localPosition = Vector3.zero;
 
-                                        if (secondItemGameObject.GetComponent<ConsumeItem>().duplication != null)
+                                            if (secondItemGameObject.GetComponent<ConsumeItem>().duplication != null)
                                             Destroy(secondItemGameObject.GetComponent<ConsumeItem>().duplication);
-
-                                    }
-                                    //if you are dragging an item from the equipmentsystem to the inventory and they are not from the same itemtype they do not get swapped.                                    
-                                    else if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null && firstItem.itemType != secondItem.itemType)
-                                    {
-                                        firstItemGameObject.transform.SetParent(oldSlot.transform);
-                                        firstItemRectTransform.localPosition = Vector3.zero;
-                                    }
+                                        }                                                                      
+                                    
                                     //swapping for the rest of the inventorys
                                     else if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() == null)
                                     {
+                                        Debug.Log("error");
                                         firstItemGameObject.transform.SetParent(secondItemGameObject.transform.parent);
                                         secondItemGameObject.transform.SetParent(oldSlot.transform);
                                         secondItemRectTransform.localPosition = Vector3.zero;
+                                        firstItemRectTransform.localPosition = Vector3.zero;
+                                    }
+
+                                    //if you are dragging an item from the equipmentsystem to the inventory and they are not from the same itemtype they do not get swapped.     
+                                    else //if (oldSlot.transform.parent.parent.GetComponent<EquipmentSystem>() != null && firstItem.itemType != secondItem.itemType)  //Вова(криво робив перенос 198 строка)
+                                    {
+                                        Debug.Log("different type");
+                                        firstItemGameObject.transform.SetParent(oldSlot.transform);
                                         firstItemRectTransform.localPosition = Vector3.zero;
                                     }
                                 }
@@ -395,7 +403,8 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                     if (newSlotChildCount != 0 && isOnSlot)
                     {
                         //items getting swapped if they are the same itemtype
-                        if (sameItemType && !sameItemRerferenced) //
+                        if (sameItemType && !sameItemRerferenced) 
+                            if(checkIfEnoughStats.IsEnoughStrange(firstItem))
                         {
                             Transform temp1 = secondItemGameObject.transform.parent.parent.parent;
                             Transform temp2 = oldSlot.transform.parent.parent;                            
@@ -444,7 +453,8 @@ public class DragItem : MonoBehaviour, IDragHandler, IPointerDownHandler, IEndDr
                             {
                                 //checking if it is the right slot for the item
                                 if (itemTypeOfSlots[i] == transform.GetComponent<ItemOnObject>().item.itemType)
-                                {
+                                    if (checkIfEnoughStats.IsEnoughStrange(firstItem))
+                                    {
                                     transform.SetParent(newSlot);
                                     rectTransform.localPosition = Vector3.zero;
 

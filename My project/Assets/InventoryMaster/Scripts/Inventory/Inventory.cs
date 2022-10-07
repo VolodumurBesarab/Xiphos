@@ -8,7 +8,6 @@ using System.Collections.Generic;
 
 public class Inventory : MonoBehaviour
 {
-    CharacterStats characterStats;
     //Prefabs
     [SerializeField]
     private GameObject prefabCanvasWithPanel;
@@ -84,6 +83,7 @@ public class Inventory : MonoBehaviour
 
     InputManager inputManagerDatabase;
     CheckIfEnoughStats checkIfEnoughStats;
+    CharacterStats characterStats;
 
     //event delegates for consuming, gearing
     public delegate void ItemDelegate(Item item);
@@ -103,6 +103,8 @@ public class Inventory : MonoBehaviour
         updateItemList();
 
         inputManagerDatabase = (InputManager)Resources.Load("InputManager");
+        characterStats = GameObject.FindGameObjectWithTag("Player").GetComponent<CharacterStats>();
+        checkIfEnoughStats = this.GetComponent<CheckIfEnoughStats>();
 
         
     }
@@ -196,46 +198,12 @@ public class Inventory : MonoBehaviour
         if (ItemConsumed != null)
             ItemConsumed(item);
     }
-    //Кусок мого гавнокода
+
+
     public void EquiptItem(Item item)
     {
         if (ItemEquip != null)
-            ItemEquip(item);
-        /*
-        bool k = true;
-        bool j;
-        if (k)
-        {
-
-            if (item.itemType == ItemType.Weapon)                    
-            for (int i = 0; i < item.itemAttributes.Count; i++)
-                if (item.itemAttributes[i].attributeName == "Strange")
-                    if (item.itemAttributes[i].attributeValue <= characterStats.GiveCharacteristicsNumberInfo(0))
-                    { 
-                            Debug.Log("Need Strange " + item.itemAttributes[i].attributeValue);
-                            Debug.Log("Have Strange " + characterStats.GiveCharacteristicsNumberInfo(0));
-
-                        j = true;
-                        Debug.Log(j);
-                    }
-                    else
-                    {
-                        j = false;
-                        Debug.Log(j);
-                    }
-
-            j = true;
-            Debug.Log(j);
-        }
-        //if (item.itemType == ItemType.Weapon)
-        /*
-        if  (checkIfEnoughStats.IsEnoughStrange(item))
-            Debug.Log("Ви можете одягнути цю зброю");
-        else
-            Debug.Log("Ви не можете одягнути цю зброю");
-        */
-
-
+        ItemEquip(item);
     }
 
     public void UnEquipItem1(Item item)

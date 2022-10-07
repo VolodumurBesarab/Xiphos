@@ -4,18 +4,46 @@ using UnityEngine;
 
 public class CheckIfEnoughStats : MonoBehaviour
 {
+    [SerializeField]
     CharacterStats characterStats;
+    
+
+    public bool IsEnoughStrange(Item item)
+    {
+        bool isEnough = true;
+        if (item.itemType == ItemType.Weapon)
+        {
+            for (int i = 1; i < item.itemAttributes.Count; i++)
+                if (item.itemAttributes[i].attributeName == "Сила")
+                    if (item.itemAttributes[i].attributeValue <= characterStats.GiveCharacteristicsValue(0))
+                    {
+                        Debug.Log("Need Strange " + item.itemAttributes[i].attributeValue);
+                        Debug.Log("Have Strange " + characterStats.GiveCharacteristicsValue(0));
+                        isEnough = true;
+                    }
+                    else
+                    {
+                        Debug.Log("Need Strange " + item.itemAttributes[i].attributeValue);
+                        Debug.Log("Have Strange " + characterStats.GiveCharacteristicsValue(0));
+                        isEnough = false;
+                    }
+        }
+        return isEnough;
+    }
+
+    /*
     public bool IsEnoughStrange(Item item)
     {
         for (int i = 0; i < item.itemAttributes.Count; i++)
             if (item.itemAttributes[i].attributeName == "Strange")
-                if (item.itemAttributes[i].attributeValue <= characterStats.GiveCharacteristicsNumberInfo(0))
+                if (item.itemAttributes[i].attributeValue <= characterStats.GiveCharacteristicsValueInfo(0))
                     return true;
                 else
                     return false;
         return true;
     }
-    /*
+     * 
+     * 
     public void OnUnEquipItem(Item item)
     {
         for (int i = 0; i < item.itemAttributes.Count; i++)
@@ -31,9 +59,9 @@ public class CheckIfEnoughStats : MonoBehaviour
         }
     }
     */
-        //if (HPMANACanvas != null)
-        //{
-        //    UpdateManaBar();
-        //    UpdateHPBar();
-        //}
+    //if (HPMANACanvas != null)
+    //{
+    //    UpdateManaBar();
+    //    UpdateHPBar();
+    //}
 }

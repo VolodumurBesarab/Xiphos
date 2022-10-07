@@ -6,7 +6,7 @@ public class CharacterStats : MonoBehaviour
 {
     [Header("Характеристики")]
     [SerializeField] private string[] characteristicsName;
-    [SerializeField] private int[] characteristicsNumber;
+    [SerializeField] private int[] characteristicsValue;
 
     [Header("Вміння")]
     [SerializeField] private string[] skillName;
@@ -16,8 +16,8 @@ public class CharacterStats : MonoBehaviour
     //Перенести в статсконтроллер
     public void AddStats(int value, int id, int maxOfTeaacher)
     {
-        if (maxOfTeaacher >= characteristicsNumber[id] + value)
-            characteristicsNumber[id] += value;
+        if (maxOfTeaacher >= characteristicsValue[id] + value)
+            characteristicsValue[id] += value;
         else
             return;//Нпц має сказати, Я більше нічого не можу тебе навчити
     }
@@ -25,12 +25,12 @@ public class CharacterStats : MonoBehaviour
     {
         return characteristicsName.Length;
     }
-    public int GiveCharacteristicsNumberInfo(int i)
+    public int GiveCharacteristicsValue(int i)
     {
-        return characteristicsNumber[i];
+        return characteristicsValue[i];
     }
 
-    public string GiveCharacteristicsNaneInfo(int i)
+    public string GiveCharacteristicsName(int i)
     {
         return characteristicsName[i];
     }
