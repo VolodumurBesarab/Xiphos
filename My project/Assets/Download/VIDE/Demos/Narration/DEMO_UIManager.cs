@@ -29,11 +29,12 @@ public class DEMO_UIManager : MonoBehaviour {
     {
         if (VD.isActive)
         {
-            if (!VD.nodeData.isPlayer && Input.GetKeyUp(continueButton))
+            if (!VD.nodeData.isPlayer && Input.GetKeyUp(KeyCode.Q))
             {
                 if (keyDown)
                 {
                     keyDown = false;
+
                 } else
                 {
                     VD.Next(); //Second most important method when using VIDE
@@ -41,7 +42,7 @@ public class DEMO_UIManager : MonoBehaviour {
             }
         } else
         {
-            if (Input.GetKeyUp(continueButton))
+            if (Input.GetKeyUp(KeyCode.Q))
             {
                 Start();
             }
